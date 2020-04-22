@@ -4,111 +4,143 @@
     <meta charset="UTF-8" />
     <meta name="author" content="Alexander Garkusha" />
     <meta name="description" content="homework html" />
-    <title>HOMEWORK-01-02</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Ubuntu:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <title>homework-03</title>
   </head>
 
-  <body>
+  <body class="container">
     <header>
-      <nav class="main-nav">
-        <ul class="main-menu">
-          <li class="main-menu-item">
-            <a href="#lifestyle" class="main-menu-link">lifestyle</a>
+      <nav>
+        <ul>
+          <li class="menu-item">
+            <a class="menu-link" href="#lifestyle">lifestyle</a>
           </li>
-          <li class="main-menu-item">
-            <a href="#photodiary" class="main-menu-link">photodairy</a>
+          <li class="menu-item">
+            <a class="menu-link" href="#photodiary">photodiary</a>
           </li>
-          <li class="main-menu-item">
-            <a href="#music" class="main-menu-link">music</a>
+          <li class="menu-item">
+            <a class="menu-link" href="#music">music</a>
           </li>
-          <li class="main-menu-item">
-            <a href="#travel" class="main-menu-link">travel</a>
+          <li class="menu-item">
+            <a class="menu-link" href="#travel">travel</a>
           </li>
         </ul>
       </nav>
     </header>
-    <main class="main-content">
-      <section id="lifestyle">
-        <img
-          src="./img/0001.png"
-          width="420"
-          height="280"
-          alt="girl_over_crowd"
-        />
-        <p>LIFESTYLE</p>
-        <h2>More then just a music festival</h2>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris
-        </p>
 
-        <img
-          src="./img/0002.png"
-          width="419"
-          height="280"
-          alt="cup of coffee"
-        />
-        <p>LIFESTYLE</p>
-        <h2>Life tastes better with coffee</h2>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris
-        </p>
+    <main>
+      <section class="lifestyle" id="lifestyle">
+        <article class="main-block">
+          <img
+            src="./img/0001.png"
+            width="420"
+            height="280"
+            alt="girl_over_crowd"
+          />
+          <p class="fornav">Lifestyle</p>
+          <h2>More then just a music festival</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris
+          </p>
+        </article>
+
+        <article class="main-block">
+          <img
+            src="./img/0002.png"
+            width="419"
+            height="280"
+            alt="cup of coffee"
+          />
+          <p class="fornav">lifestyle</p>
+          <h2>Life tastes better with coffee</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris
+          </p>
+        </article>
       </section>
 
-      <section id="photodiary">
-        <img
-          src="./img/0003.png"
-          width="420"
-          height="280"
-          alt="two girls near bridge"
-        />
-        <p>PHOTODIARY</p>
-        <h2>American dream</h2>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris
-        </p>
+      <section class="photodiary" id="photodiary">
+        <article class="main-block">
+          <img
+            src="./img/0003.png"
+            width="420"
+            height="280"
+            alt="two girls near bridge"
+          />
+          <p class="fornav">photodiary</p>
+          <h2>American dream</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris
+          </p>
+        </article>
 
-        <img src="./img/0004.png" width="419" height="280" alt="girl's back" />
-
-        <p>PHOTODIARY</p>
-        <h2>A day exploring the Alps</h2>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris
-        </p>
+        <article class="main-block">
+          <img
+            src="./img/0004.png"
+            width="419"
+            height="280"
+            alt="girl's back"
+          />
+          <p class="fornav">photodiary</p>
+          <h2>A day exploring the Alps</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris
+          </p>
+        </article>
       </section>
 
-      <section id="music">
-        <img
-          src="./img/0005.png"
-          width="420"
-          height="280"
-          alt="girl back road"
-        />
-        <p>MUSIC</p>
-        <h2>Top 10 song for running</h2>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris
-        </p>
+      <section class="music">
+        <article class="main-block">
+          <img
+            src="./img/0005.png"
+            width="420"
+            height="280"
+            alt="girl_on_road"
+          />
+          <p class="fornav">music</p>
+          <h2>Top 10 song for running</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris
+          </p>
+        </article>
 
-        <img src="./img/0006.png" width="419" height="280" alt="winter road" />
-
-        <p>MUSIC</p>
-        <h2>Cold winter days</h2>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris
-        </p>
+        <article class="main-block">
+          <img
+            src="./img/0006.png"
+            width="419"
+            height="280"
+            alt="winter road"
+          />
+          <p class="fornav">music</p>
+          <h2>Cold winter days</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris
+          </p>
+        </article>
       </section>
+
+      <div class="button">
+        <button type="button">Load more</button>
+      </div>
     </main>
-    <button>load more</button>
   </body>
 </html>
